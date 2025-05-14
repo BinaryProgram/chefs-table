@@ -1,0 +1,98 @@
+[
+  {
+    "recipe_id": "001",
+    "recipe_name": "Spicy Basil Chicken",
+    "recipe_image": "https://example.com/images/spicy_basil_chicken.jpg",
+    "short_description": "A Thai-inspired dish with a spicy basil twist.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom",
+      "2 red chilies",
+      "1 tbsp garlic paste"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_id": "002",
+    "recipe_name": "Creamy Mushroom Pasta",
+    "recipe_image": "https://example.com/images/creamy_mushroom_pasta.jpg",
+    "short_description": "Rich and creamy pasta loaded with mushrooms.",
+    "ingredients": [
+      "300 g pasta",
+      "200 g mushrooms",
+      "100 ml cream",
+      "2 cloves garlic",
+      "50 g parmesan",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": "25 min",
+    "calories": "450 calories"
+  },
+  {
+    "recipe_id": "003",
+    "recipe_name": "Grilled Lemon Salmon",
+    "recipe_image": "https://example.com/images/grilled_lemon_salmon.jpg",
+    "short_description": "Fresh salmon grilled with lemon and herbs.",
+    "ingredients": [
+      "400 g salmon fillet",
+      "1 lemon",
+      "2 tbsp olive oil",
+      "1 tsp thyme",
+      "Salt to taste",
+      "Black pepper to taste"
+    ],
+    "preparing_time": "20 min",
+    "calories": "390 calories"
+  },
+  {
+    "recipe_id": "004",
+    "recipe_name": "Chickpea Curry",
+    "recipe_image": "https://example.com/images/chickpea_curry.jpg",
+    "short_description": "A hearty and flavorful vegan curry.",
+    "ingredients": [
+      "300 g chickpeas",
+      "1 onion",
+      "2 tomatoes",
+      "100 ml coconut milk",
+      "2 tsp curry powder",
+      "1 tbsp ginger paste"
+    ],
+    "preparing_time": "35 min",
+    "calories": "310 calories"
+  },
+  {
+    "recipe_id": "005",
+    "recipe_name": "Beef Stir Fry",
+    "recipe_image": "https://example.com/images/beef_stir_fry.jpg",
+    "short_description": "Quick and tasty beef stir fry with vegetables.",
+    "ingredients": [
+      "400 g beef strips",
+      "100 g broccoli",
+      "1 bell pepper",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 clove garlic"
+    ],
+    "preparing_time": "20 min",
+    "calories": "370 calories"
+  },
+  {
+    "recipe_id": "006",
+    "recipe_name": "Avocado Toast",
+    "recipe_image": "https://example.com/images/avocado_toast.jpg",
+    "short_description": "Healthy and simple breakfast toast with avocado.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 ripe avocado",
+      "1 tsp lemon juice",
+      "Chili flakes",
+      "Salt to taste",
+      "Black pepper to taste"
+    ],
+    "preparing_time": "10 min",
+    "calories": "250 calories"
+  }
+]
