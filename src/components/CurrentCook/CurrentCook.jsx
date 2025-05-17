@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const CurrentCook = (props) => {
+  const [sumTime, setSumTime] = useState(0);
   const { currentCook } = props;
-  currentCook.map((item) => console.log(item));
+  const totalTime = currentCook.reduce((accumulator,currentValue) => accumulator + currentValue.preparing_time,0);
+  const totalCalorie = currentCook.reduce((accumulator,currentValue) => accumulator + currentValue.calories,0);
+
   return (
     <div className="mt-8 mb-8">
       <h1 className="lexend mb-4 text-center text-2xl font-semibold text-[#282828]">
@@ -21,14 +24,13 @@ const CurrentCook = (props) => {
             </tr>
           </thead>
           <tbody>
-            {/* row 1 */}
             {currentCook.map((item, index) => {
               return (
-                <tr className="fira font-medium text-[#878787]">
+                <tr key={item.id} className="fira font-medium text-[#878787]">
                   <th>{index + 1}</th>
                   <td>{item.recipe_name}</td>
-                  <td>{item.preparing_time}</td>
-                  <td>{item.calories}</td>
+                  <td>{item.preparing_time} minutes</td>
+                  <td>{item.calories} calories</td>
                 </tr>
               );
             })}
@@ -37,8 +39,9 @@ const CurrentCook = (props) => {
             <tr className="lexend font-medium text-[#282828cc]">
               <td></td>
               <td></td>
-              <td>Total Time -</td>
-              <td>Total Calories -</td>
+              
+              <td>Total Time - {totalTime}  </td>
+              <td>Total Calories - {totalCalorie} </td>
             </tr>
           </tfoot>
         </table>
