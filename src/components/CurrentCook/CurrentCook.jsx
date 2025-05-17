@@ -39,7 +39,6 @@ const CurrentCook = (props) => {
             <tr className="lexend font-medium text-[#282828cc]">
               <td></td>
               <td></td>
-              
               <td>Total Time - {totalTime}  </td>
               <td>Total Calories - {totalCalorie} </td>
             </tr>

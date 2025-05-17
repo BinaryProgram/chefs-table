@@ -86,7 +86,7 @@ const Header = () => {
         </label>
         <div className="avatar">
           <div className="w-12 rounded-full">
-            <img src="./src/images/cooking.jpg" />
+            <img src="/images/cooking.jpg" />
           </div>
         </div>
         {/* <div className="rounded-full bg-[#0be58a] p-2 text-3xl">
